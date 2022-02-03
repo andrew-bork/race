@@ -1,0 +1,57 @@
+
+#map { height: 800px; }
+
+div {
+    position:relative;
+}
+
+.floating {
+    position: absolute;
+}
+
+* {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+#data-view {
+    bottom:5px;
+    right: 5px;
+    z-index: 1000000;
+}
+
+#input {
+    top:5px;
+    right: 5px;
+    z-index: 1000000;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 18px 5px rgba(0,0,0,0.22);
+}
+
+.map-label{
+    margin:5px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 18px 5px rgba(0,0,0,0.22);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+    border: solid 1px black;
+}
+
+#head { 
+    font-size: 24px;
+    padding:5px;
+}
